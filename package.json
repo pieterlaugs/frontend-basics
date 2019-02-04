@@ -1,0 +1,22 @@
+{
+  "name": "frontend-basics",
+  "version": "1.0.0",
+  "description": "hotel software",
+  "main": "index.js",
+  "scripts": {
+    "test": "start test"
+  },
+  "keywords": [
+    "hotel",
+    "restaurant",
+    "event",
+    "Molveno",
+    "lake",
+    "resort"
+  ],
+  "author": "Pieter Laugs",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
