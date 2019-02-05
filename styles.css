@@ -1,31 +1,33 @@
-body nav {
-  background-color: orange;
-  padding: 10px;
-  border-radius: 4px;
-  list-style-type: none; }
-  body nav a {
-    width: 33%;
-    display: inline-block;
-    text-align: center;
-    transition: 0.3s ease-out all; }
-
-body footer {
-  background: green;
-  padding: 10px;
-  border-radius: 4px; }
-
-body .dropdown {
-  position: relative;
-  display: inline-block; }
-
-body .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  padding: 12px 16px;
-  z-index: 1; }
-
-body .dropdown:hover .dropdown-content {
-  display: block; }
+body {
+  background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-lYAPIR-tKqk%2FUyxZ4MLb8HI%2FAAAAAAAAYb0%2F0bBv-Xw8_Jg%2Fs1600%2Ffoto-zomer-wallpapers-hd-zomer-achtergronden-37-zee-strand.jpg&f=1"); }
+  body .menu {
+    height: 100px;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 1.8;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 4px;
+    list-style-type: none; }
+    body .menu a {
+      width: 5%;
+      display: inline-block;
+      text-align: center;
+      transition: 0.3s ease-out all; }
+    body .menu .dropdown {
+      position: relative;
+      display: inline-block; }
+    body .menu .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f5703c;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      padding: 12px 16px;
+      z-index: 1; }
+    body .menu .dropdown:hover .dropdown-content {
+      display: block; }
+    body .menu .footer {
+      background: green;
+      padding: 10px;
+      border-radius: 4px; }
