@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css"
     <title>Document</title>
 </head>
 
@@ -12,7 +13,12 @@
     <nav>
         <a href="">home</a>
         <a href="/home">about</a>
-        <a href="/contacts">contact</a>
+        <div class="dropdown">
+                <span><a href="/contacts">contact</a></span>
+                <div class="dropdown-content">
+                <p><a href="/Pieter">Pieter</a></p>
+                </div>
+              </div>
     </nav>
     <main>
         <h1>Web Browsers</h1>
@@ -27,6 +33,10 @@
         <article>
             <h2>Internet Explorer</h2>
             <p>Internet Explorer is a free web browser from Microsoft, released in 1995.</p>
+            <video width="320" height="240" controls>
+                <source src="https://youtu.be/pjj9newZBp0" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
         </article>
 
         <article>

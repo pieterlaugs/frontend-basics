@@ -4,7 +4,8 @@
   "description": "hotel software",
   "main": "index.js",
   "scripts": {
-    "test": "start test"
+    "test": "start test",
+    "sass": "node-sass styles.scss -wo ./"
   },
   "keywords": [
     "hotel",
