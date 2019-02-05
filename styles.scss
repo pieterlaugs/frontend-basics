@@ -5,7 +5,6 @@ $primary-font-color: black;
 $border-radius: 4px;
 
 body {
-  
   .menu {
     height: 100px;
     font-style: normal;
@@ -31,21 +30,37 @@ body {
     .dropdown-content {
       display: none;
       position: absolute;
-      background-color: #f5703c;
-      min-width: 160px;
+      background-color: $primary-color;
+      min-width: 100px;
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-      padding: 12px 16px;
+      padding: 3px 5px;
+      border-radius: 20px 20px;
       z-index: 1;
     }
 
     .dropdown:hover .dropdown-content {
       display: block;
     }
+  }
+  .footer {
+    background: $secondary-color;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  .table1 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
 
-    .footer {
-      background: $secondary-color;
-      padding: 10px;
-      border-radius: 4px;
-    }
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
   }
 }
