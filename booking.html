@@ -1,0 +1,55 @@
+<html>
+<HEAD>
+<TITLE>Performing Comparisons</TITLE>
+
+<SCRIPT LANGUAGE = "JavaScript"> The language attribute is deprecated, use the type attribute instead:
+
+<script type = "text/javascript">
+
+var passengerName; // first string entered by user
+var seatType; // second string entered by user
+var classType;
+// read first number from user as a string and assigns to var first
+passengerName = window.prompt( "Enter your name:", "0" );
+
+// read second number from user as a string and assigns to var
+second
+seatType = window.prompt( "For First Class type 1 or 2 for
+Economy:", "0" ); 
+In regards to this assignment, it seems that you should be placing
+those in a form instead of doing a prompt. For example, what would
+happen if a user wanted to get 2 or more seats? If I refresh the page,
+all data is lost, unless you've learned how to use cookies.
+
+if (seatType ==1){
+classType = ("First Class"); }
+
+Place matching closing brace here.
+Else 
+Syntax is case sensitive. That should be a lowercase 'e' instead.
+classType=("Economy")};
+
+document.writeln( "<H1>Boarding Pass Information</H1>" );
+document.writeln( "<TABLE BORDER = \"1\"" + "WIDTH = \"40%\">");
+document.writeln( "<TR><TD>" + "<b>" +"NAME:" + "</b>" +
+"</TD></TR>" );
+document.writeln( "<TR><TD>" + passengerName +
+"</TD></TR>" );
+document.writeln( "<TR><TD>" + "<b>" + "SEAT TYPE"+ "</b>" +
+"</TD></TR>" );
+document.writeln( "<TR><TD>" + seatType+
+"</TD></TR>" );
+document.writeln( "<TR><TD>" + "<b>" + "CLASS TYPE"+ "</b>" +
+"</TD></TR>" );
+document.writeln( "<TR><TD>" + classType +
+"</TD></TR>" );
+document.writeln( "</TABLE>" ); 
+Instead of doing bunch of document.writeln, it would be easier to
+create a form and then manipulate the values of the input therein.
+</SCRIPT>
+
+</HEAD>
+<BODY>
+<P>Click Refresh (or Reload) to run the script again</P>
+</BODY>
+</HTML>
