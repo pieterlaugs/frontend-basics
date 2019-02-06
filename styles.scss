@@ -63,4 +63,10 @@ body {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+  p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+  }
+
+
 }

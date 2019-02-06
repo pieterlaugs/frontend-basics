@@ -1,55 +1,42 @@
-<html>
-<HEAD>
-<TITLE>Performing Comparisons</TITLE>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <title>Molveno Lake Resort</title>
+  </head>
+  <body>
+<!-- Menu items -->
+    <nav class="menu">
+      <i class="fas fa-cloud"></i>
+      <a href="index.html">home</a>
+      <a href="booking.html">about</a>
+      <div class="dropdown">
+        <span><a href="/contacts">contact</a></span>
+        <div class="dropdown-content">
+          <p><a href="/Pieter">Pieter</a></p>
+          <p><a href="/Jos">Jos</a></p>
+        </div>
+      </div>
+    </nav>
+<!-- Pagina inhoud -->    
+    <main>
+      <h1>Kamer reservering</h1>
+      <p>
+        Test
+      </p>
 
-<SCRIPT LANGUAGE = "JavaScript"> The language attribute is deprecated, use the type attribute instead:
-
-<script type = "text/javascript">
-
-var passengerName; // first string entered by user
-var seatType; // second string entered by user
-var classType;
-// read first number from user as a string and assigns to var first
-passengerName = window.prompt( "Enter your name:", "0" );
-
-// read second number from user as a string and assigns to var
-second
-seatType = window.prompt( "For First Class type 1 or 2 for
-Economy:", "0" ); 
-In regards to this assignment, it seems that you should be placing
-those in a form instead of doing a prompt. For example, what would
-happen if a user wanted to get 2 or more seats? If I refresh the page,
-all data is lost, unless you've learned how to use cookies.
-
-if (seatType ==1){
-classType = ("First Class"); }
-
-Place matching closing brace here.
-Else 
-Syntax is case sensitive. That should be a lowercase 'e' instead.
-classType=("Economy")};
-
-document.writeln( "<H1>Boarding Pass Information</H1>" );
-document.writeln( "<TABLE BORDER = \"1\"" + "WIDTH = \"40%\">");
-document.writeln( "<TR><TD>" + "<b>" +"NAME:" + "</b>" +
-"</TD></TR>" );
-document.writeln( "<TR><TD>" + passengerName +
-"</TD></TR>" );
-document.writeln( "<TR><TD>" + "<b>" + "SEAT TYPE"+ "</b>" +
-"</TD></TR>" );
-document.writeln( "<TR><TD>" + seatType+
-"</TD></TR>" );
-document.writeln( "<TR><TD>" + "<b>" + "CLASS TYPE"+ "</b>" +
-"</TD></TR>" );
-document.writeln( "<TR><TD>" + classType +
-"</TD></TR>" );
-document.writeln( "</TABLE>" ); 
-Instead of doing bunch of document.writeln, it would be easier to
-create a form and then manipulate the values of the input therein.
-</SCRIPT>
-
-</HEAD>
-<BODY>
-<P>Click Refresh (or Reload) to run the script again</P>
-</BODY>
-</HTML>
+    </main>
+    <footer class="footer">
+      <p>Capgemini academy</p>
+    </footer>
+  </body>
+</html>
