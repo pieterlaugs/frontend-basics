@@ -1,3 +1,5 @@
+@import "./node_modules/bootstrap/scss/bootstrap";
+
 $primary-color: orange;
 $secondary-color: green;
 $tertiary-color: #eeeeee;
@@ -15,6 +17,14 @@ body {
     border-radius: 4px;
     list-style-type: none;
 
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      display: inline;
+    }
     a {
       width: 5%;
       display: inline-block;
@@ -63,10 +73,8 @@ body {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
-  p::first-line {
+  p::first-letter {
     color: #ff0000;
-    font-variant: small-caps;
+    font-size: xx-large;
   }
-
-
 }
