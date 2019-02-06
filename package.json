@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "start test",
-    "sass": "node-sass src/styles/index.scss -wo ./dist"
+    "sass": "node-sass src/styles/index.scss -wo ./dist",
+    "var": "node-sass src/styles/variables.scss -wo ./dist"
   },
   "keywords": [
     "hotel",
